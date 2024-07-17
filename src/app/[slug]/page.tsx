@@ -1,3 +1,5 @@
+import Add from "@/components/Add";
+import CustomizeProducts from "@/components/CustomizeProducts";
 import ProductImages from "@/components/ProductImages";
 
 const SinglePage = () => {
@@ -9,7 +11,49 @@ const SinglePage = () => {
       </div>
       {/* TEXTS */}
       <div className='w-full lg:w-1/2 flex flex-col gap-6'>
-      TEXTS
+        <h1 className='text-4xl font-medium'>Product Name</h1>
+        <p className='text-gray-500'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magni
+          non vel totam ad? Laboriosam ipsum numquam inventore fugiat harum
+          ullam voluptatum doloremque quo, at odit molestias repellendus
+          mollitia nulla.
+        </p>
+        <div className='h-[2px] bg-gray-100' />
+        <div className='flex items-center gap-4'>
+          <h3 className='text-xl text-gray-500 line-through'>$59</h3>
+          <h2 className='font-medium text-2xl'>$49</h2>
+        </div>
+        <div className='h-[2px] bg-gray-100' />
+        <CustomizeProducts />
+        <Add />
+        <div className='h-[2px] bg-gray-100' />
+        <div className='text-sm'>
+          <h4 className="font-medium mb-4">Title</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            tempora adipisci asperiores ducimus hic maxime corporis recusandae
+            nostrum quo laboriosam dolores voluptatem, laborum eveniet ipsam
+            quasi consequatur delectus, facere magni.
+          </p>
+        </div>
+        <div className='text-sm'>
+          <h4 className="font-medium mb-4">Title</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            tempora adipisci asperiores ducimus hic maxime corporis recusandae
+            nostrum quo laboriosam dolores voluptatem, laborum eveniet ipsam
+            quasi consequatur delectus, facere magni.
+          </p>
+        </div>
+        <div className='text-sm'>
+          <h4 className="font-medium mb-4">Title</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            tempora adipisci asperiores ducimus hic maxime corporis recusandae
+            nostrum quo laboriosam dolores voluptatem, laborum eveniet ipsam
+            quasi consequatur delectus, facere magni.
+          </p>
+        </div>
       </div>
     </div>
   );
