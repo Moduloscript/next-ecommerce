@@ -32,7 +32,7 @@ const NavIcons = () => {
         onClick={handleProfile}
       />
       {isProfileOpen && (
-        <div className='absolute p-4 top-12 left-0 bg-white text-sm shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md z-index'>
+        <div className='absolute p-4 top-12 left-0 bg-white text-sm shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md z-20'>
           <Link href='/'>Profile</Link>
           <div className='mt-2 cursor-pointer'>Logout</div>
         </div>
